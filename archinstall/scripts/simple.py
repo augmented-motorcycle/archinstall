@@ -16,7 +16,7 @@ from archinstall.tui import Tui
 
 
 def ask_questions() -> None:
-	print*("_________ Asking questions...")
+	print("_________ Asking questions...")
 	sleep(6)
 
 	with Tui():
