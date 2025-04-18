@@ -50,14 +50,14 @@ class DiskLayoutConfigurationMenu(AbstractSubMenu):
 				preview_action=self._prev_disk_layouts,
 				key='disk_config'
 			),
-			MenuItem(
-				text='LVM (BETA)',
-				action=self._select_lvm_config,
-				value=self._disk_menu_config.lvm_config,
-				preview_action=self._prev_lvm_config,
-				dependencies=[self._check_dep_lvm],
-				key='lvm_config'
-			),
+			# MenuItem(
+			# 	text='LVM (BETA)',
+			# 	action=self._select_lvm_config,
+			# 	value=self._disk_menu_config.lvm_config,
+			# 	preview_action=self._prev_lvm_config,
+			# 	dependencies=[self._check_dep_lvm],
+			# 	key='lvm_config'
+			# ),
 		]
 
 	@override
